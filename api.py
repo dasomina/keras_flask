@@ -47,5 +47,5 @@ api.add_resource(IrisEstimator, '/predict')
 
 if __name__ == '__main__':
     init() # 초기화
-##    app.run(host='https://flask02.herokuapp.com', port=9090, debug=True)
-    app.run(host='0.0.0.0', port=8000, debug=True) # 8000포트로 실행
+    app.run(host='https://flask02.herokuapp.com', port=8000, debug=True)
+##    app.run(host='0.0.0.0', port=8000, debug=True) # 8000포트로 실행
