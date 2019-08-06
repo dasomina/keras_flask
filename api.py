@@ -8,7 +8,6 @@ from flask import Flask
 from flask_restful import Api, Resource, reqparse
     
 class IrisEstimator(Resource):
-        
     def get(self):
         try:
             # 파라미터 파싱
