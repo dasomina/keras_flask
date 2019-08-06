@@ -42,6 +42,7 @@ def init():
 
 app = Flask('My First AI App')
 api = Api(app)
+init()
 api.add_resource(IrisEstimator, '/predict')
 
 if __name__ == '__main__':
